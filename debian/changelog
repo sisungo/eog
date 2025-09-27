@@ -1,3 +1,11 @@
+eog (41.0-2deepin1) unstable; urgency=medium
+
+  * Fixes the following 2 API changes that prevents this package to be built:
+    - Meson no longer accepts positional arguments for `i18n.merge_file`
+    - `libgnome` changed some function signatures
+
+ -- sisungo <sisungo@icloud.com>  Sat, 27 Sep 2025 19:56:11 +0800
+
 eog (41.0-2) unstable; urgency=medium
 
   * Only enable librsvg on architectures where it's available
